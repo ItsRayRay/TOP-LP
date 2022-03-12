@@ -5,12 +5,11 @@
 
 .header {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     width: 100%;
     height: 150px;
     align-items: center;
-    padding: 0px 150px 0px 150px
 }
 
 .Header--logo {
@@ -37,4 +36,48 @@
 .menu--link:hover {
     box-shadow: inset 100px 0 0 0 #54b3d6;
     color: white;
+  }
+
+
+.bodypart-1 {
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.piechart {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.bodypart-1-header {
+    size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bodypart-1-p {
+    color: #f9faf8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    background-color: #FF66C4; 
+    border: none;
+    color: #00206F;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 12px;
   }
