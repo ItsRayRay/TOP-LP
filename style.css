@@ -124,6 +124,8 @@ font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FF66C4;
+    border-radius: 25px;
  }
 
  .bodypart-content {
