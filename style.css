@@ -101,7 +101,7 @@ font-size: 18px;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-bottom: 300px;
+      padding-bottom: 150px;
       
   }
 
@@ -126,6 +126,7 @@ font-size: 18px;
     align-items: center;
     background-color: #FF66C4;
     border-radius: 25px;
+    border: solid black;
  }
 
  .bodypart-content {
@@ -146,3 +147,92 @@ font-size: 18px;
      font-weight: bolder;
      
  }
+
+ .bodypart-3 {
+
+    display: flex;
+    flex-direction: column;
+     background-color: #1F2937;
+     justify-content: center;
+     align-items: center;
+     padding-top: 100px;
+     padding-bottom: 100px;
+
+ }
+
+ .bodypart-3-quote {
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+ }
+
+ .quote {
+     text-align: right;
+     color: white;
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .bodypart-4 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 200px;
+     padding-bottom: 200px;
+
+ }
+
+ .bodypart-4-box {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #1F2937;
+     padding: 100px 250px 100px 250px;
+     border-radius: 25px;
+     
+ }
+
+ .bodypart-4-text {
+     display: flex;
+     font-size: larger;
+ }
+
+ .button2 {
+    background-color: #FF66C4; 
+    border: none;
+    color: #00206F;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 12px;
+ }
+
+.bodypart-4-text-column {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bodypart-4-text-column-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.bodypart-4-text-column-text {
+    padding-right: 400px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+     background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 24px;
+}
